@@ -2,8 +2,8 @@
 import './index.css'
 
 const MatchCard = props => {
-  const {item} = props
-  const {competingTeam, competingTeamLogo, result, matchStatus} = item
+  const {matchDetails} = props
+  const {competingTeam, competingTeamLogo, result, matchStatus} = matchDetails
   const statusColor = matchStatus === 'Won' ? 'won' : 'lost'
   return (
     <li className="items">

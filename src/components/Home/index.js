@@ -21,7 +21,6 @@ class Home extends Component {
       teamImageUrl: eachItem.team_image_url,
     }))
     this.setState({teamsList: updatedData, isLoading: false})
-    console.log(updatedData)
   }
 
   render() {

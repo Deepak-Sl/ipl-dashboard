@@ -2,7 +2,7 @@
 import './index.css'
 
 const LatestMatch = props => {
-  const {item} = props
+  const {latestMatchData} = props
   const {
     competingTeam,
     competingTeamLogo,
@@ -13,7 +13,7 @@ const LatestMatch = props => {
     secondInnings,
     manOfTheMatch,
     umpires,
-  } = item
+  } = latestMatchData
   return (
     <>
       <p className="text-2">Latest Match</p>
