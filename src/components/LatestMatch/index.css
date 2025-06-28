@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.latest-match {
+  background-color: #000000;
+  width: 100%;
+  border-radius: 5px;
+  font-family: Bree Serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.text-1 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.text-2 {
+  color: #ffffff;
+  font-size: 15px;
+}
+.team-logo {
+  height: 80px;
+}
+.text-cont {
+  text-align: right;
+}
+.h {
+  text-align: left;
+}
